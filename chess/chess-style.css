@@ -1,7 +1,7 @@
 /* Stiliaus aprašymas šachmatams */
 /* Puslapio pagrindas */
 body {
-    background-color: lightgray;
+    background-color: lightsalmon;
     margin-top: 20px;
 }
 table {
@@ -16,67 +16,65 @@ tr {
     width: auto;
     padding: 0;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 td {
     width: 80px;
     height: auto;
     padding: 0;
- }
+}
 /* Kraštai */
-.krastas_left{
+.krastas_left {
     background: url("./pav/border_left.jpg") no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
-.krastas_top{
+.krastas_top {
     background: url("./pav/border_top.jpg") no-repeat;
-    background-size:contain;
+    background-size: contain;
 }
-.krastas_right{
+.krastas_right {
     background: url("./pav/border_right.jpg") no-repeat;
-    background-size:contain;
-
+    background-size: contain;
 }
-.krastas_bottom{
+.krastas_bottom {
     background: url("./pav/border_bottom.jpg") no-repeat;
-    background-size:contain;
-
-}   
+    background-size: contain;
+}
 /* Langeliai: juodi ir balti */
 .baltas {
     background: url("./pav/white_sq.jpg") no-repeat;
-    background-size:contain;
+    background-size: contain;
     margin-left: auto;
     margin-right: auto;
-    text-align: center; 
+    text-align: center;
     vertical-align: bottom;
 }
 .juodas {
     background: url("./pav/black_sq.jpg") no-repeat;
-    background-size:contain;
+    background-size: contain;
     margin-left: auto;
     margin-right: auto;
-    text-align: center; 
+    text-align: center;
     vertical-align: bottom;
 }
 /* Šachmatų figūros */
-.figura { 
+.figura {
     width: 70px;
     height: auto;
 }
 .figura:hover {
-    width:75px;
-    height:auto;
+    width: 75px;
+    height: auto;
 }
 /* Teksto nustatymai */
-.tekstas_top{
+.tekstas_top {
     font-size: 30px;
     text-align: left;
     color: cornsilk;
     margin-left: 25px;
     letter-spacing: 60px;
 }
-.tekstas_bottom{
+.tekstas_bottom {
     font-size: 30px;
     text-align: left;
     color: cornsilk;
@@ -84,7 +82,7 @@ td {
     letter-spacing: 60px;
     transform: rotate(180deg);
 }
-.tekstas_left{
+.tekstas_left {
     font-size: 30px;
     text-align: center;
     color: cornsilk;
@@ -92,14 +90,14 @@ td {
     margin-left: 25px;
     margin-top: 25px;
     letter-spacing: 65px;
-    transform: rotate(180deg);  
+    transform: rotate(180deg);
 }
-.tekstas_right{
+.tekstas_right {
     font-size: 30px;
     text-align: center;
     color: cornsilk;
     writing-mode: vertical-rl;
     margin-left: 25px;
     margin-bottom: 25px;
-    letter-spacing: 65px;  
+    letter-spacing: 65px;
 }
